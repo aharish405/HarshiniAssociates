@@ -131,10 +131,10 @@ export default function InteractiveFilingShowcase({ activeColor }) {
                   onClick={() => setActiveStep(s.id)}
                   className={`w-11 h-11 rounded-2xl flex items-center justify-center border transition-all duration-500 shadow-md cursor-pointer ${
                     isActive 
-                      ? `${activeColor.badgeBg} border-[var(--text-primary)] ring-4 ring-white/5` 
+                      ? `${activeColor.badgeBg} bg-white dark:bg-slate-950 border-[var(--text-primary)] ring-4 ring-white/5` 
                       : isPassed 
-                        ? 'bg-emerald-500/10 border-emerald-500/30 text-emerald-500' 
-                        : 'bg-white/5 border-[var(--border-color)] text-[var(--text-secondary)]'
+                        ? 'bg-emerald-500/15 bg-white dark:bg-slate-950 border-emerald-500/30 text-emerald-500' 
+                        : 'bg-[var(--bg-primary)] border-[var(--border-color)] text-[var(--text-secondary)]'
                   }`}
                 >
                   {isPassed ? <CheckCircle className="w-5 h-5 text-emerald-500" /> : s.icon}
