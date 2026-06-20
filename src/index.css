@@ -68,6 +68,16 @@
   box-shadow: 0 4px 20px 0 var(--shadow-color);
 }
 
+.glass-mobile-menu {
+  background: rgba(255, 255, 255, 0.01);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+}
+
+.dark .glass-mobile-menu {
+  background: rgba(5, 7, 15, 0.02);
+}
+
 /* Custom ambient mesh background animations */
 @keyframes float-slow-1 {
   0%, 100% {

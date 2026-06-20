@@ -122,7 +122,7 @@ export default function Navbar({
 
       {/* Mobile Dropdown Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden absolute top-20 left-0 w-full bg-transparent backdrop-blur-2xl border-b border-[var(--border-color)] py-6 px-4 space-y-4 animate-fade-in-down shadow-2xl">
+        <div className="md:hidden absolute top-20 left-0 w-full glass-mobile-menu border-b border-[var(--border-color)] py-6 px-4 space-y-4 animate-fade-in-down shadow-2xl">
           <button 
             onClick={() => scrollToSection('hero')} 
             className="block w-full text-left px-4 py-2 text-base font-medium text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-white/5 rounded-lg transition-all"
