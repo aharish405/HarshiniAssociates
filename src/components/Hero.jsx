@@ -8,7 +8,7 @@ export default function Hero({ activeColor, scrollToSection }) {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         
         {/* Left Column: Heading Copy & Actions */}
-        <div className="lg:col-span-7 flex flex-col items-center lg:items-start text-center lg:text-left">
+        <div className="lg:col-span-6 flex flex-col items-center lg:items-start text-center lg:text-left">
           {/* Trust Badge */}
           <div className={`glass-card border-[var(--border-color)] px-4 py-1.5 rounded-full text-[10px] sm:text-xs font-semibold tracking-wide ${activeColor.badgeBg} uppercase mb-8 flex items-center gap-1.5 shadow-inner`}>
             <ShieldCheck className="w-4 h-4 text-emerald-500 dark:text-emerald-400" />
@@ -64,7 +64,7 @@ export default function Hero({ activeColor, scrollToSection }) {
         </div>
 
         {/* Right Column: Interactive Graphic Showcase */}
-        <div className="lg:col-span-5 flex justify-center">
+        <div className="lg:col-span-6 flex justify-center w-full">
           <InteractiveFilingShowcase activeColor={activeColor} />
         </div>
 
