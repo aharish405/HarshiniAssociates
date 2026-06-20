@@ -69,15 +69,7 @@
 }
 
 .glass-mobile-menu {
-  background: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);
-  transform: translateZ(0);
-  -webkit-transform: translateZ(0);
-}
-
-.dark .glass-mobile-menu {
-  background: rgba(5, 7, 15, 0.45);
+  background: var(--bg-secondary);
 }
 
 .glass-settings-popup {
