@@ -12,7 +12,9 @@ import AppearanceSettings from './components/AppearanceSettings'
 import Hero from './components/Hero'
 import Countdown from './components/Countdown'
 import Services from './components/Services'
+import TaxCalculator from './components/TaxCalculator'
 import WhyChooseUs from './components/WhyChooseUs'
+import DocumentChecklist from './components/DocumentChecklist'
 import Faq from './components/Faq'
 import ContactForm from './components/ContactForm'
 import Footer from './components/Footer'
@@ -427,10 +429,20 @@ Thank you!`
           activeColor={activeColor}
         />
 
+        {/* TAX REGIME CALCULATOR */}
+        <TaxCalculator
+          activeColor={activeColor}
+        />
+
         {/* WHY CHOOSE US INFORMATION */}
         <WhyChooseUs
           activeColor={activeColor}
           scrollToSection={scrollToSection}
+        />
+
+        {/* DOCUMENT CHECKLIST */}
+        <DocumentChecklist
+          activeColor={activeColor}
         />
 
         {/* FAQ ACCORDIONS */}
