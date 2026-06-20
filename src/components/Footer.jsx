@@ -117,7 +117,15 @@ export default function Footer({
             &copy; {new Date().getFullYear()} HARSHINI Associates. All rights reserved.
           </p>
           <p className="text-[var(--text-secondary)] text-xs text-center sm:text-right font-light">
-            Premium Liquid Glass theme. Works Offline.
+            Designed & Developed by{' '}
+            <a 
+              href="https://svenbyte.com/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className={`font-semibold text-[var(--text-primary)] hover:underline transition-all`}
+            >
+              Svenbyte Innovations
+            </a>
           </p>
         </div>
       </div>
