@@ -88,7 +88,7 @@ const colorThemes = {
 
 export default function App() {
   // Theme & Accent Preset States
-  const [theme, setTheme] = useState(() => localStorage.getItem('ha-theme') || 'dark')
+  const [theme, setTheme] = useState(() => localStorage.getItem('ha-theme') || 'light')
   const [colorTheme, setColorTheme] = useState(() => localStorage.getItem('ha-color-theme') || 'blue')
   
   // UI Panel Panels
