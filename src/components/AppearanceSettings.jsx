@@ -14,7 +14,7 @@ export default function AppearanceSettings({
   if (!showSettings) return null
 
   return (
-    <div className="fixed top-24 right-4 z-50 w-72 bg-transparent backdrop-blur-2xl p-6 rounded-2xl border border-[var(--border-color)] animate-fade-in shadow-2xl">
+    <div className="fixed top-24 right-4 z-50 w-72 glass-settings-popup p-6 rounded-2xl border border-[var(--border-color)] animate-fade-in shadow-2xl">
       <div className="flex items-center justify-between mb-4 border-b border-[var(--border-color)] pb-3">
         <h4 className="font-display font-bold text-sm text-[var(--text-primary)] flex items-center gap-2">
           <Palette className={`w-4.5 h-4.5 ${activeColor.textAccent}`} />

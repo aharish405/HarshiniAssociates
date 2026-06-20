@@ -69,13 +69,27 @@
 }
 
 .glass-mobile-menu {
-  background: rgba(255, 255, 255, 0.01);
+  background: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
 }
 
 .dark .glass-mobile-menu {
-  background: rgba(5, 7, 15, 0.02);
+  background: rgba(5, 7, 15, 0.45);
+}
+
+.glass-settings-popup {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+}
+
+.dark .glass-settings-popup {
+  background: rgba(5, 7, 15, 0.45);
 }
 
 /* Custom ambient mesh background animations */
