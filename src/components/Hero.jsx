@@ -1,6 +1,6 @@
 import React from 'react'
 import { ShieldCheck, ArrowRight } from 'lucide-react'
-import heroImg from '../assets/finance-hero.png'
+import InteractiveFilingShowcase from './InteractiveFilingShowcase'
 
 export default function Hero({ activeColor, scrollToSection }) {
   return (
@@ -63,24 +63,9 @@ export default function Hero({ activeColor, scrollToSection }) {
           </div>
         </div>
 
-        {/* Right Column: Visual Graphic Asset */}
+        {/* Right Column: Interactive Graphic Showcase */}
         <div className="lg:col-span-5 flex justify-center">
-          <div className="relative group w-full max-w-md sm:max-w-lg lg:max-w-none">
-            {/* Back glow card */}
-            <div className={`absolute -inset-1 rounded-3xl bg-gradient-to-tr ${activeColor.primary} opacity-20 blur-xl group-hover:opacity-30 transition-all duration-500`}></div>
-            
-            {/* Premium glass frame around image */}
-            <div className="relative glass-card p-3 rounded-3xl border-[var(--border-color)] overflow-hidden shadow-2xl transition-all duration-300 hover:scale-[1.01] hover:border-[var(--text-primary)]/10">
-              <img 
-                src={heroImg} 
-                alt="HA Tax Financial Analytics Render" 
-                className="w-full h-auto object-cover rounded-2xl select-none"
-                loading="eager"
-              />
-              {/* Subtle glass reflection overlay */}
-              <div className="absolute inset-0 bg-gradient-to-tr from-white/0 via-white/5 to-white/0 pointer-events-none rounded-2xl"></div>
-            </div>
-          </div>
+          <InteractiveFilingShowcase activeColor={activeColor} />
         </div>
 
       </div>
