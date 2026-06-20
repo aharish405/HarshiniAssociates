@@ -371,7 +371,7 @@ Thank you!`
   ]
 
   return (
-    <div className="relative min-h-screen overflow-hidden font-sans bg-[var(--bg-primary)] text-[var(--text-primary)] transition-colors duration-300">
+    <div className="relative min-h-screen overflow-x-clip font-sans bg-[var(--bg-primary)] text-[var(--text-primary)] transition-colors duration-300">
       
       {/* SHIFTING MESH GRADIENT BLOB BACKGROUNDS */}
       <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden select-none">
